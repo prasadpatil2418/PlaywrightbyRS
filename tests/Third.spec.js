@@ -26,7 +26,7 @@ test('Playwright Special locators', async ({ page }) => {
 });
 
 
-test.only('@Webst Client App login', async ({ page }) => {
+test('@Webst Client App login', async ({ page }) => {
     //js file- Login js, DashboardPage
     const email = "test2418@gmail.com";
     const productName = 'ZARA COAT 3';

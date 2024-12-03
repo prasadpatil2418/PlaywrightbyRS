@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test');
 
 //test.use({ browserName: 'webkit'});
-test.only('@Web Browser Context-Validating Error login', async ({browser})=>
+test('@Web Browser Context-Validating Error login', async ({browser})=>
     {
          const context = await browser.newContext();
          const page =  await context.newPage();
