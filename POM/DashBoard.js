@@ -5,8 +5,8 @@ class DashBoard {
         this.page = page;
         this.products = page.locator(".card-body");
         this.productText= page.locator(".card-body b")
-        this.cart = page.locator("[routerlink*='cart']")
-        //this.cart = page.locator ("[routerlink*=\'cart\']")
+        //this.cart = page.locator("//button[@routerlink='/dashboard/cart']")
+        this.cart = page.getByRole("button", {name:'Cart'})
        
     }
 

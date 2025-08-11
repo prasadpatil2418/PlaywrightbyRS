@@ -18,7 +18,7 @@ test('Post request using static body', async({request})=>{
         }
     })
 
-    //srarus code
+    //status code
     expect(postApiResp.ok()).toBeTruthy()
     expect(postApiResp.status()).toBe(200)
 
